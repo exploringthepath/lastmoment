@@ -1,0 +1,9 @@
+<div class="center-card">
+  <h2>Login</h2>
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <input formControlName="email" placeholder="Email" />
+    <input type="password" formControlName="password" placeholder="Password" />
+    <button type="submit">Login</button>
+  </form>
+  <p class="small">New user? <a routerLink="/register">Register here</a></p>
+</div>

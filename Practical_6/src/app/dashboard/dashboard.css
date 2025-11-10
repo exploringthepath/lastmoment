@@ -1,0 +1,24 @@
+.center-card {
+  width: 480px;
+  margin: 80px auto;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #fff;
+}
+.btn-row {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.btn-row button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn-row button:first-child { background: #0b79d0; color: #fff; }
+.btn-row button:last-child { background: #e14b4b; color: #fff; }
