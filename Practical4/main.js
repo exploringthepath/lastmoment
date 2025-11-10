@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var mathOperations_1 = require("./mathOperations");
+var num1 = 10;
+var num2 = 5;
+console.log("Numbers: ".concat(num1, ", ").concat(num2));
+console.log("Addition: ".concat((0, mathOperations_1.add)(num1, num2)));
+console.log("Subtraction: ".concat((0, mathOperations_1.subtract)(num1, num2)));
+console.log("Multiplication: ".concat((0, mathOperations_1.multiply)(num1, num2)));
+console.log("Division: ".concat((0, mathOperations_1.divide)(num1, num2)));
